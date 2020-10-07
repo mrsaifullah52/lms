@@ -31,4 +31,56 @@ const dataArray = [
     }
 ];
 
+const menuDa = [
+    {
+        id: 1,
+        val: 'Home'
+    },{
+        id: 2,
+        val: 'Contact Us'
+    },{
+        id: 3,
+        val: 'About Us'
+    }
+];
+
+const cousesDa = [
+    {
+        id: '1',
+        name: 'CS101'
+    },    {
+        id: '2',
+        name: 'CS201'
+    },    {
+        id: '3',
+        name: 'CS301'
+    },    {
+        id: '4',
+        name: 'CS401'
+    },    {
+        id: '5',
+        name: 'CS501'
+    },
+];
+
+
+const cs101 = [
+    {
+        id: '1',
+        dat: 'Courses Website',
+    },    {
+        id: '2',
+        dat: 'Assignments',
+    },    {
+        id: '3',
+        dat: 'Quizes',
+    },    {
+        id: '4',
+        dat: 'GDBs',
+    },
+];
+
+
+
 export default dataArray;
+export {menuDa, cousesDa, cs101};
